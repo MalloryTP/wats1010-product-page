@@ -1,8 +1,79 @@
 /* Styles for Product Page Customization */
 /* NOTE: Do not edit the Bootstrap CSS files. */
 
+
+
 body {
-    padding-top: 30px;
-    padding-bottom: 20px;
-    color: green;
+  font-family: Century Gothic, sans-serif;
+  background-image: url('Images/catbackground.jpg');
+  background-size: cover;  
 }
+
+h1 {
+  font-size: 500%;
+  color: grey;
+}
+header {
+  background-opacity: 20%;
+  background-color:#D0FAEE;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+navigation ul {
+  background-color: white;
+  padding: 25px;
+  list-style-type: none;
+  align-content: center;
+}
+
+navigation li {
+  display: inline-block;
+  text-align: center;
+  background-color: #808080;
+  width: 200px;
+  line-height: 60px;
+  color: white;
+  align-content: center;
+  margin-right: 120px;
+  margin-left: 100px
+}
+
+#about {
+  color: white;
+  float: left;
+  margin-left: 20px;
+  background-color: #068481;
+  padding: 10px;
+}
+
+#video {
+  background-color: #808080;
+  float: right;
+  margin-right: 15px;
+  margin-left: 10px;
+  padding: 30px;
+}
+
+#action {
+  float: left;
+  background-color: white;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+#action ul {
+  list-style-type: none;
+}
+
+#action li {
+  
+}
+
+
+
+
+
+
