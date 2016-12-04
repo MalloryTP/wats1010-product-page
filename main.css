@@ -10,9 +10,10 @@ body {
 }
 
 h1 {
-  font-size: 500%;
+  font-size: 300%;
   color: grey;
 }
+
 header {
   background-opacity: 20%;
   background-color:#D0FAEE;
@@ -21,6 +22,8 @@ header {
   padding-bottom: 5px;
   margin-bottom: 10px;
 }
+
+/* navigation */
 
 navigation ul {
   background-color: white;
@@ -41,6 +44,20 @@ navigation li {
   margin-left: 100px
 }
 
+navigation li a {
+  color: white;
+  text-decoration: none;
+}
+
+navigation li:hover {
+  background-color: #e35c70;
+}
+
+navigation li a:hover {
+   text-decoration: underline;
+}
+
+/* content */
 #about {
   color: white;
   float: left;
@@ -62,18 +79,46 @@ navigation li {
   background-color: white;
   margin-top: 20px;
   margin-left: 20px;
+  padding: 5px;
 }
 
 #action ul {
   list-style-type: none;
 }
 
-#action li {
-  
+/* footer */
+
+footer {
+  background-color: #e35c70;
+  margin-bottom: 20px;
+  margin-top: 450px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: fixed, bottom;
+  text-align: center;
 }
 
+footer ul {
+  padding: 10px;
+  list-style-type: none;
+  align-content: center;
+}
 
+footer li {
+  display: inline-block;
+}
 
+/* cats */
+#cats {
+  background-color: #e35c70;
+  text-align: center;
+  padding: 20px;
+}
 
-
+/* humans */
+#humans {
+   background-color: #e35c70;
+  text-align: center;
+  padding: 20px;
+}
 
